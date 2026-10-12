@@ -1,4 +1,13 @@
+// Row = 4
+// Col = 4
 
+/*
+    @  #  @  #
+    @  #  @  #
+    @  #  @  #
+    @  #  @  #
+
+*/
 
 import java.util.*;
 
@@ -10,13 +19,13 @@ public class program122
         {
             for(int j = 1; j <= Col; j++)
             {
-                if(i % 2 == 0)
+                if(j % 2 == 0)
                 {
-                    System.out.print("$\t");
+                    System.out.print("#\t");
                 }
                 else
                 {
-                    System.out.print("*\t");
+                    System.out.print("@\t");
 
                 }
             }
