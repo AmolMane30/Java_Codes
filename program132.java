@@ -4,7 +4,6 @@
 //          c  c  c  c
 //          d  d  d  d
 
-
 import java.util.*;
 
 public class program132
@@ -13,14 +12,13 @@ public class program132
     {
         char ch = 'a';
 
-        for(int i = 1; i <= Row; i++)
+        for(int i = 1; i <= Row; i++, ch++)
         {
             for(int j = 1; j <= Col; j++)
             {
                 System.out.print(ch+"\t");
             }
             System.out.println();
-            ch++;
         }
     }
 
